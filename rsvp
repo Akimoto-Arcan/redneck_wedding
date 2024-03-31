@@ -1,9 +1,0 @@
-<section id="reservation">
-  <h2>Reserve Your Spot</h2>
-  <form action="submit_reservation.php" method="POST">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-    <!-- Add more form fields -->
-    <button type="submit" class="btn">Submit Reservation</button>
-  </form>
-</section>
