@@ -6,22 +6,23 @@
   <link rel="stylesheet" href="style.css"> <!-- Ensure this is correctly linked -->
 </head>
 <body>
-  <audio id="weddingMusic" controls loop>
-    <source src="cantina.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-  <h1>Welcome to Our Wedding!</h1>
-  <form id="rsvp-form">
-    Name: <input type="text" name="name"><br>
-    Email: <input type="email" name="email"><br>
-    Attending:
-    <select name="attendance">
-      <option value="yes">Yes</option>
-      <option value="no">No</option>
-    </select><br>
-    <input type="submit" value="Submit">
-  </form>
-
+  <div class="container">
+    <audio id="weddingMusic" controls loop>
+      <source src="cantina.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <h1>Welcome to Our Wedding!</h1>
+    <form id="rsvp-form">
+      Name: <input type="text" name="name"><br>
+      Email: <input type="email" name="email"><br>
+      Attending:
+      <select name="attendance">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
