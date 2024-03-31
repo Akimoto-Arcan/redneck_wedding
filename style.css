@@ -6,8 +6,9 @@ body {
   color: yellow;
   text-align: center; /* Centers text but not necessarily other elements */
   background-image: url('photos/starwarspainting.jpg');
-  background-size: cover;
-  background-position: bottom;
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
 
 }
 
