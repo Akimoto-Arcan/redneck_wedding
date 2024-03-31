@@ -1,9 +1,9 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Orbitron', sans-serif; /* Futuristic font for the Star Wars vibe */
   margin: 0;
   padding: 0;
-  background-color: black;
-  color: yellow;
+  background-color: black; /* Space-themed background color */
+  color: yellow; /* Text color inspired by the iconic Star Wars opening crawl */
   text-align: center;
 }
 
@@ -12,9 +12,5 @@ form {
 }
 
 h1 {
-  color: #FFE81F; /* Star Wars Yellow */
-}
-
-body, h1, h2, form {
-  font-family: 'Orbitron', sans-serif;
+  color: #FFE81F; /* Star Wars Yellow, making headings stand out */
 }
