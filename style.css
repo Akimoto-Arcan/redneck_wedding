@@ -32,18 +32,10 @@ body {
   background-color: #777; /* Lighter background on hover */
 }
 
-.video-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.content-image {
+  max-width: 100%; /* Ensures the image is responsive and fits within its container */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Centers the image in the container */
+  margin: 20px auto; /* Adds some space above and below the image */
 }
 
