@@ -1,0 +1,7 @@
+<section id="gallery">
+  <h2>Gallery</h2>
+  <!-- Insert your gallery images here -->
+  <img src="image1.jpg" alt="Star Wars Wedding">
+  <img src="image2.jpg" alt="Star Wars Decorations">
+  <!-- Add more images -->
+</section>
