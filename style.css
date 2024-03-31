@@ -1,29 +1,33 @@
 body {
   font-family: 'Orbitron', sans-serif;
-  margin: 0;
-  padding: 0;
+  text-align: center;
   background-color: black;
   color: yellow;
-  text-align: center; /* Centers text but not necessarily other elements */
-  background-image: url('photos/starwarspainting.jpg');
-  background-size: cover; /* Cover the entire page */
-  background-position: center; /* Center the background image */
-  background-attachment: fixed;
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centers the content horizontally */
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.couple-photo {
   width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: adds rounded corners to the image */
 }
 
-form {
-  margin-top: 20px;
+.button-container button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #FFF;
+  background-color: #333; /* Dark background for buttons */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-h1 {
-  color: #FFE81F; /* Star Wars Yellow */
+.button-container button:hover {
+  background-color: #777; /* Lighter background on hover */
 }
