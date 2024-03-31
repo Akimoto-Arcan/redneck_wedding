@@ -2,10 +2,19 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: black;
+  color: yellow;
   text-align: center;
 }
 
 form {
   margin-top: 20px;
+}
+
+h1 {
+  color: #FFE81F; /* Star Wars Yellow */
+}
+
+body, h1, h2, form {
+  font-family: 'Orbitron', sans-serif;
 }
