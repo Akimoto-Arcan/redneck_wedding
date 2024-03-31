@@ -3,25 +3,16 @@
 <head>
   <title>Our Wedding</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css"> <!-- Ensure this is correctly linked -->
+  <link rel="stylesheet" href="style.css"> <!-- Make sure this path is correct -->
 </head>
 <body>
   <div class="container">
-    <audio id="weddingMusic" controls loop>
-      <source src="cantina.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <h1>Welcome to Our Wedding!</h1>
-    <form id="rsvp-form">
-      Name: <input type="text" name="name"><br>
-      Email: <input type="email" name="email"><br>
-      Attending:
-      <select name="attendance">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select><br>
-      <input type="submit" value="Submit">
-    </form>
+    <img src="path/to/couple-photo.jpg" alt="Lovely Couple" class="couple-photo">
+    <div class="button-container">
+      <button onclick="location.href='RSVP-page.html';">RSVP</button>
+      <button onclick="location.href='gallery.html';">Gallery</button>
+      <button onclick="window.open('https://www.google.com/maps/place/Your+Venue+Address/', '_blank');">Venue Location</button>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
