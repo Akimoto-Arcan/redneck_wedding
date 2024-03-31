@@ -7,7 +7,7 @@ body {
   text-align: center; /* Centers text but not necessarily other elements */
   background-image: url('photos/starwarspainting.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 
 }
 
